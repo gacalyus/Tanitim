@@ -1,0 +1,28 @@
+.navbar {
+  background-color: black;
+  position: fixed !important;
+  width: 100%;
+  z-index: 2;
+}
+.titleNavbar {
+  font-size: large;
+  color: red;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 760px) {
+  .navi {
+    max-height: 20px;
+  }
+  .titleNavbar {
+    font-size: small;
+    margin-bottom: 0.2rem;
+  }
+  .navbar-toggler-icon {
+    width: 100%;
+    float: left;
+    height: 2px;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(9,55,244, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    margin-bottom: -10px;
+  }
+}
